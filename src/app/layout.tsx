@@ -4,6 +4,7 @@ import '@/styles/globals.css'
 import { Inter } from 'next/font/google'
 import { cn } from '../lib/utils'
 import { Toaster } from '@/components/ui/Toast'
+import MobileMenu from '@/components/MobileMenu'
 
 const inter = Inter({subsets: ['latin']})
 
@@ -23,6 +24,7 @@ export default function RootLayout({
           <Toaster position='bottom-right'/>
           {/* @ts-expect-error Server Component */}
           <Navbar />
+          <MobileMenu />
         </Providers>
 
 
