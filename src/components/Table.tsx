@@ -9,7 +9,7 @@ import {  ThemeProvider, createTheme } from '@mui/material'
 const columnsDraft : GridColDef[] = [
     {
         field: 'col1',
-        headerName: 'API Key used',
+        headerName: 'API Key used 🔑',
         width: 400,
         renderHeader(params) {
             return (
